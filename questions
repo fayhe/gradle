@@ -8,3 +8,22 @@ Q3: I notice most of our projects are Co-operative projects that requires the co
 
 
 
+Not Good:
+1. Lack of E2E test to guarantee the code quality in Feedback Loop. For example, there were some unexpected errors occuring after making code change in Feedback Loop before UAT.  
+2. We need to improve our skill to manage the schedules of tasks to avoid task delay.
+3. Sometimes we did more than story required. For example, doing code refactor even it is not quite related to the description of the task itself, which make the story requires more time to complete.
+
+Good: 
+1. Some task/stories are defined clearly so the effort we put in communication has been reduced.
+2. Instead of fixing the comments of code review immediately, we think throughly of the comments and trying to figure out if the comment is valid by discussing with the reviewer when we have a different thought.
+3. We have got more technical experience by doing code refactoring.
+
+
+
+Action: 
+1. To increase code quality, we need to make sure the test coverage (UT, E2E) and put more effort in code review by following some standards like the minumum number of reviewers should be 2.
+2. To manage the schedules of tasks more efficiently, we should make use of the time when is close to the end of sprint to analyze the assigned task for next sprint and conduct some pre-action/communication to understand more about the tasks. By doing this, some issue will be raised at the early stage of each sprint to avoid critical risks.
+3. Do task breakdown when there is additional sub-task (e.g. code refactor) needed to be done.
+4. Ensure efficient communication by applying all kinds of necessary approaches(telephone, skype, email, etc) to help us understand requirement as clearly as possible.  
+
+
