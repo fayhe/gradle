@@ -1,0 +1,11 @@
+{"postAPI":  [
+  {"path":"/v2/feedback/",
+   "fields":
+    [{"fieldName":"type",
+     "supportType":"str",
+     "supportValues":["Other","ALLFX"],
+     "caseInsensitive": true
+   }
+  ]
+}
+]}
