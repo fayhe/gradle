@@ -1,4 +1,10 @@
 Success Criteria:
+Swift 599:
+1. Provides an automatic machanism to extract SWIFT 599 fields using both machine learning models and NLP regular expression technology 
+2. Integrated with SFE serving Arg, BR and CO branch through extractor API 
+3. The metrics of model is improved to ****
+
+Feedback Loop:
 1. Integrated with SFE serving Arg, BR and CO extractor feedback through feedback API in UAT env: Feedback API is deployed and runs successfully in UAT env, which allows SFE to send extractor feedback messages to text analytics platfom.
 2. Feedback Data collection for Extrator in UAT ENV: Successfully stores extractor feedback data for the fields of XXXX, XXXX,XXXXX
 3. Provides retrain process for continuously monitoring and improving the performance of machine learning models used in extractor based on the collected feedback data.
