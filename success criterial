@@ -9,3 +9,18 @@ Feedback Loop:
 2. Feedback Data collection for Extrator in UAT ENV: Successfully stores extractor feedback data for the fields of XXXX, XXXX,XXXXX
 3. Provides retrain process for continuously monitoring and improving the performance of machine learning models used in extractor based on the collected feedback data.
 4. Provides a configurable mechanism for retrained models selection and evaluation.    
+
+Data Cleaning and Preprocessing:
+1. Shuffle data and remove stop words and use @fieldname@ to replace email, number, date, etc
+2. Use TF-IDF/Word2Vec as the input of cluster model 
+
+Model Training:
+1. Clustering: Kmeans (Any other approches?)
+2. Selecting the number of clusters: Applying Silhouette analysis on KMeans clustering
+
+Model Validation:
+1. Get Adjusted Rand-Index/Completeness/Homogeneity/Completeness scores for the  validation on training/validation datatset. (How to get labeled data?)
+2. Get Silhouette score
+
+Clustering Result Visualization:
+1. PCA
