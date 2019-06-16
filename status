@@ -1,0 +1,9 @@
+FX Machine Learning Status
+Scope:  automation of fields extratcion for  Brazil Co and Argentina foreign exchange using regx+ ml model  
+
+1. ALLFX Classifier: Apply word2vec for xgboost to improve performace from 
+2. FX Fields Extration: 
+   2.1 Machine Learning Model coverage/non coverage rate
+   2.2 field, use model, applicable, current ml precision, recall and f1
+   
+   
